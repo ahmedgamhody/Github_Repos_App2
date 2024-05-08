@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="master.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>GitHub App</h1>
+      </header>
+      <div class="con">
+        <div class="left">
+          <div class="card">
+            <h2>Fetch GitHub Repos By Username</h2>
+            <form id="elForm">
+              <label>Username</label>
+              <input type="text" id="username" />
+              <button id="btn" type="submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="card">
+            <h2>Topic</h2>
+            <div class="lang">
+              <button id="btn" data-lan="javascript">Js</button>
+              <button id="btn" data-lan="php">PHP</button>
+              <button id="btn" data-lan="css">CSS</button>
+              <button id="btn" data-lan="html">HTML</button>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <p id="typeLan"></p>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
